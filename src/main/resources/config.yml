@@ -1,0 +1,3 @@
+kickMessage: "Invalid host"
+blockedHosts:
+  - ".example.com"

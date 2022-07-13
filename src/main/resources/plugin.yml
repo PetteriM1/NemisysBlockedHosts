@@ -1,0 +1,12 @@
+name: NemisysBlockedHosts
+main: me.petterim1.nemisysblockedhosts.Main
+version: "${pom.version}"
+api: ["1.0.0"]
+author: PetteriM1
+commands:
+  reloadblocked:
+    description: "Reload NemisysBlockedHosts config"
+    permission: "command-reloadblocked"
+permissions:
+  command-reloadblocked:
+    default: op
